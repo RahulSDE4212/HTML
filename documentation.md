@@ -1,0 +1,12 @@
+## Websites: 
+1.  https://developer.mozilla.org/en-US/
+2.  https://medium.com/
+3.  https://web.dev/
+4.  https://color.adobe.com/
+5.  https://www.fontpair.co/
+6.  https://fonts.google.com/
+7.  https://css-tricks.com/
+8.  https://www.w3.org/
+9.  https://www.figma.com/ 
+10. https://cssgradient.io/
+11. https://www.w3schools.com/
