@@ -1,10 +1,45 @@
 <!DOCTYPE html>
+<!-- What it is: A short instruction for the web browser.
+    What it does: It tells the browser “this is a modern HTML document” so the browser renders the page correctly. 
+                  Think of it as telling the browser which rulebook to use. -->
+
+
+
 <html lang="en">
+<!--What it is: The opening tag for the whole HTML page. Everything on the page sits between <html> and </html>.
+    What lang="en" does: Declares the page language as English. This helps search engines and assistive tools (like screen readers) behave correctly. 
+    
+    -- A search engine is a service that helps people find websites and content on the internet.
+    -- It scans web pages, indexes the content, and then ranks results when someone searches.
+    -- If your page says lang="en", the search engine knows the content is in English.
+    -- This helps it show your page to people searching in English.
+    -- It also prevents confusion if your page has multiple languages.
+
+    -- Assistive tools are technologies that help people with disabilities use the web.
+    -- Example: A screen reader reads web page text out loud for someone who is blind or has low vision. -->
+
+
+
 <head>
+<!-- What it is: A container for background information about the page (not visible to visitors as page content). 
+     The browser reads this to learn things like the page title and how to display the page. -->
     <meta charset="UTF-8">
+    <!-- What it is: A metadata line inside the head.
+        What it does: Tells the browser how text characters are encoded (UTF-8 is the standard). 
+        Without this, special characters might display as nonsense. Keep this — it’s essential. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- What it is: Another metadata line used for mobile devices.
+        What it does: Makes sure the page scales properly on phones and tablets so text and layout look correct instead of tiny or zoomed out. -->
     <title>About me</title>
-</head>
+    <!-- What it is: The title of the page.
+        What it does: Appears on the browser tab and is used when someone bookmarks or shares the page. 
+        It’s also used by search engines. Short, clear titles are good. -->
+
+</head> <!-- What it is: Closes the head section. After this, visible content begins. -->
+
+
+
+
 <body>
     <h2>Rahul Singh</h2>
     <div>
@@ -33,4 +68,8 @@
         </li>
     </ul>
 </body>
+
+
+
+
 </html>
